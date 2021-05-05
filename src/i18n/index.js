@@ -17,23 +17,13 @@ import dedeCAMessages from './messages/de_DE.json';
 import ititCAMessages from './messages/it_IT.json';
 import ptptCAMessages from './messages/pt_PT.json';
 // no need to import en messages-- they are in the defaultMessage field
+import frMessages from './messages/fr.json';
 
 const appMessages = {
   ar: arMessages,
   'es-419': es419Messages,
   'fa-ir': faIRMessages,
   fr: frMessages,
-  'zh-cn': zhcnMessages,
-  pt: ptMessages,
-  it: itMessages,
-  de: deMessages,
-  hi: hiMessages,
-  'fr-ca': frCAMessages,
-  ru: ruMessages,
-  uk: ukMessages,
-  'de-de': dedeCAMessages,
-  'it-it': ititCAMessages,
-  'pt-pt': ptptCAMessages,
 };
 
 export default [
