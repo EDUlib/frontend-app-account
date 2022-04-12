@@ -2,7 +2,7 @@
   "account.settings.message.duplicate.tpa.provider": "Le compte {provider} que vous avez sélectionné est déjà lié à un autre compte {siteName}.",
   "account.settings.message.managed.settings": "Vos paramètres de profile sont gérés par {managerTitle}. Contactez votre administrateur ou {support} en cas de besoin.",
   "account.settings.message.managed.settings.support": "support",
-  "account.settings.page.heading": "Settings du compte",
+  "account.settings.page.heading": "Paramètres du compte",
   "account.settings.loading.message": "Chargement...",
   "account.settings.loading.error": "Erreur : {error}",
   "account.settings.banner.beta.language": "Vous avez réglé votre langue sur {beta_language}, qui n'est actuellement pas entièrement traduite. Vous pouvez nous aider à traduire complètement cette langue en rejoignant la communauté Transifex et en ajoutant des traductions de l'anglais pour les apprenants qui parlent {beta_language}.",
