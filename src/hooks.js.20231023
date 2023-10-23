@@ -38,21 +38,17 @@ export function useRedirect() {
   });
 
   useEffect(() => {
-//    if (sessionStorage.getItem('courseId')) {
-//      setRedirect({
-//        location: `courses/${sessionStorage.getItem('courseId')}`,
-//        text: 'id.verification.return.course',
-//      });
-//    } else if (sessionStorage.getItem('next')) {
-//      setRedirect({
-//        location: sessionStorage.getItem('next'),
-//        text: 'id.verification.return.generic',
-//      });
-//    }
-    setRedirect({
-      location: 'dashboard',
-      text: 'id.verification.return.dashboard',
-    });
+    if (sessionStorage.getItem('courseId')) {
+      setRedirect({
+        location: `courses/${sessionStorage.getItem('courseId')}`,
+        text: 'id.verification.return.course',
+      });
+    } else if (sessionStorage.getItem('next')) {
+      setRedirect({
+        location: sessionStorage.getItem('next'),
+        text: 'id.verification.return.generic',
+      });
+    }
   }, []);
 
   return redirect;
