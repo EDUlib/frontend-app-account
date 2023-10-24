@@ -112,7 +112,7 @@ const IdVerificationPage = (props) => {
           <ModalDialog.Footer className="p-2">
             <ActionRow>
               <ModalDialog.CloseButton variant="link">
-                Close
+                OK
               </ModalDialog.CloseButton>
             </ActionRow>
           </ModalDialog.Footer>
