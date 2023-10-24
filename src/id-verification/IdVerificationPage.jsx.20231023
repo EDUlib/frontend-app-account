@@ -70,7 +70,7 @@ const IdVerificationPage = (props) => {
           </div>
           <div className="col-lg-6 col-md-4 pt-md-0 pt-4 text-right">
             <Button variant="link" className="px-0" onClick={() => setIsModalOpen(true)}>
-              {props.intl.formatMessage(messages['id.verification.privacy.title'])}
+              Privacy Information
             </Button>
           </div>
         </div>
