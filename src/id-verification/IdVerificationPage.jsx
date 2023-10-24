@@ -112,7 +112,7 @@ const IdVerificationPage = (props) => {
           <ModalDialog.Footer className="p-2">
             <ActionRow>
               <ModalDialog.CloseButton variant="link">
-                {props.intl.formatMessage(messages['account.settings.delete.account.modal.after.button'])}
+                Close
               </ModalDialog.CloseButton>
             </ActionRow>
           </ModalDialog.Footer>
